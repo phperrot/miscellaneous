@@ -1,0 +1,10 @@
+set number
+syntax enable
+set t_Co=256
+let g:solarized_termcolors=256
+set background=dark
+autocmd bufnewfile *.c so /Users/Phileomn/vim-42header/42_header.txt
+autocmd bufnewfile *.c exe "1," . 10 . "g/filename/s//".expand("%")
+autocmd bufnewfile *.c exe "1," . 10 . "g/Created:/s//Created: ".strftime("%Y\\/%m\\/%d %T")
+autocmd Bufwritepre,filewritepre *.c execute "normal ma"
+autocmd bufnewfile *.c exe "1," . 10 . "g/Updated:/s//Updated: ".strftime("%Y\\/%m\\/%d %T")
