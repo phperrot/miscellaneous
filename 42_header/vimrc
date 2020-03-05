@@ -1,5 +1,4 @@
 set number
-" Solarized Dark
 syntax enable
 set t_Co=256
 let g:solarized_termcolors=256
@@ -7,14 +6,14 @@ set background=dark
 set tabstop=4
 set mouse=a
 "Addition of header once a file.c is created
-autocmd bufnewfile *.c so /Users/Phileomn/vim-42header/42_header.txt
+autocmd bufnewfile *.c so ~/.vim/42_header.txt
 autocmd bufnewfile *.c exe "1," . 10 . "g/filename/s//".expand("%")
 autocmd bufnewfile *.c exe "1," . 10 . "g/Created:/s//Created: ".strftime("%Y\\/%m\\/%d %T")
 autocmd Bufwritepre,filewritepre *.c execute "normal ma"
 autocmd bufnewfile *.c exe "1," . 10 . "g/Updated:/s//Updated: ".strftime("%Y\\/%m\\/%d %T")
 autocmd bufwritepost,filewritepost *.c execute "normal `a"
 "Addition of header once a Makefile is created
-autocmd bufnewfile Makefile so /Users/Phileomn/vim-42header/42_header_makefile.txt
+autocmd bufnewfile Makefile so ~/.vim/42_header_makefile.txt
 autocmd bufnewfile Makefile exe "1," . 10 . "g/filename/s//".expand("%")
 autocmd bufnewfile Makefile exe "1," . 10 . "g/Created:/s//Created: ".strftime("%Y\\/%m\\/%d %T")
 autocmd Bufwritepre,filewritepre *.c execute "normal ma"
