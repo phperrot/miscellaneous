@@ -14,8 +14,10 @@ Puis Ctrl+Shift+V
 enter 
 ```shell
 ssh-keygen
+```
 in terminal then copy 
 ```shell
 ~/.ssh/id_rsa.pub
+```
 contents to intra (id means id, do not replace "id_rsa.pub" by "phperrot_rsa.pub")
 
