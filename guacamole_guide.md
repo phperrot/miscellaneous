@@ -4,7 +4,7 @@
 https://guacamole.42.fr/
 
 ## copy - paste: 
-Ctrl+Shift+Alt ourvre la fenetre Clipboard  
+Ctrl+Shift+Alt ouvre la fenetre Clipboard  
 Puis tu colle le lien  
 Tu refais Ctrl+Shift+Alt pour fermer la fenetre Clipboard  
 Puis Ctrl+Shift+V  
