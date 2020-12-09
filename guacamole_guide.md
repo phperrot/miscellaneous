@@ -12,10 +12,10 @@ Puis Ctrl+Shift+V
 ## Push you project
 ### SSH KEY
 enter 
-'''shell
+```shell
 ssh-keygen
 in terminal then copy 
-'''shell
+```shell
 ~/.ssh/id_rsa.pub
 contents to intra (id means id, do not replace "id_rsa.pub" by "phperrot_rsa.pub")
 
